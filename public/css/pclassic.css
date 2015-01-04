@@ -1,0 +1,39 @@
+body {
+  background-color: #d9d9d9;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+ul.no-bullet {
+  list-style: none;
+}
+
+ul.nav {
+  list-style: none;
+}
+
+ul.nav li {
+  margin-bottom: 0.5rem;
+}
+
+div.header {
+  margin-top: 2%;
+}
+
+h2.header {
+  margin-bottom: 0px;
+}
+
+.container {
+  min-height: 90%;
+  margin-top: 0px;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: #33C3F0;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: 5px;
+}
