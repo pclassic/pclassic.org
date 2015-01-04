@@ -15,6 +15,7 @@ $ npm install -g grunt-cli
 $ cd pclassic.org
 $ npm install
 $ grunt githooks
+$ git remote add dokku dokku@pclassic.org:pclassic.org
 ```
 Then to run it:
 ```
