@@ -31,4 +31,6 @@ $ node server.js
 0. Make sure you have deploy powers to the dokku box
 1. Make some changes
 2. Commit them
-2. `git push dokku master`
+3. `git push dokku master`
+
+Alternatively, use the standard GitHub workflow and send a pull request.
