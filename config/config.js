@@ -6,5 +6,5 @@ module.exports = {
   root: root,
   appRoot: path.join(root, 'app'),
   pages: ['rules', 'problems', 'faq', 'mail', 'photos', 'history', 'organizers',
-    '2012', '2013s', '2013f', '2014s', '2014f']
+    '2012', '2013s', '2013f', '2014s', '2014f', '2015s']
 };
