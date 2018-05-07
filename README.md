@@ -9,7 +9,7 @@ At the moment, we're following industry standard best practices by having big ph
 
 Do once:
 ```
-$ git clone https://github.com/LewisJEllis/pclassic.org
+$ git clone https://github.com/pclassic/pclassic.org
 $ brew install node # if you for whatever reason don't have it
 $ npm install -g grunt-cli
 $ cd pclassic.org
