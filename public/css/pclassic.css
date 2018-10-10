@@ -23,12 +23,13 @@ div.header {
 }
 
 h2.header {
-  margin-bottom: 0px;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 .container {
   min-height: 90%;
-  margin-top: 0px;
+  margin-top: 0;
   background-color: #fff;
   padding-left: 10px;
   padding-right: 10px;
