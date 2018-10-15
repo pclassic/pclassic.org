@@ -27,6 +27,10 @@ h2.header {
   margin-top: 2%;
 }
 
+img {
+  width: 100%;
+}
+
 .container {
   min-height: 90%;
   margin-top: 0;
