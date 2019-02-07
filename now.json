@@ -1,5 +1,6 @@
 {
   "name": "PClassic.org",
+  "alias": ["pclassic.org", "www.pclassic.org"],
   "version": 2,
   "builds": [
     { "src": "index.js", "use": "@now/node-server" },
