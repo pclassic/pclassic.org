@@ -1,9 +1,20 @@
-var express = require('express');
-var landing = require('../controllers');
+const express = require('express');
+const pages = require('./pages');
 
-var router = express.Router();
+function index (req, res) {
+  return res.render('about');
+};
 
-router.get('/', landing.index);
-router.get('/:page', landing.page);
+function page(req, res) {
+  if (pages.indexOf(req.params.page) > -1) {
+    return res.render(req.params.page);
+  } else {
+    return res.redirect('/');
+  }
+};
+
+const router = express.Router();
+router.get('/', index);
+router.get('/:page', page);
 
 module.exports = router;
